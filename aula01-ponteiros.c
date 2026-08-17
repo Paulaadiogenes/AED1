@@ -6,6 +6,8 @@ int mains (void) {
     printf("digite o valor:");
     scanf("%d", &numero);
     ponteiro = &numero;
-    printf("numero=%d" \n ponteiro=%p);
+    printf("numero=%d" \n ponteiro=%p, numero, ponteiro);
+    *ponteiro = 4; 
+    printf("numero=%d" \n ponteiro=%p, numero, ponteiro);
     return 0;
 }
